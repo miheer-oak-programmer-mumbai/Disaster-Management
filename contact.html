@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Contact - Disaster Management</title>
+  <meta name="description" content="Professional Disaster Management resource: preparedness, response, and resilience.">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <header class="header">
+    <div class="container nav">
+      <div class="brand">
+        <div class="logo">DM</div>
+        <div>
+          <div style="font-size:16px">Disaster Management</div>
+          <div style="font-size:12px;color:rgba(255,255,255,0.85)">Preparedness · Response · Resilience</div>
+        </div>
+      </div>
+      <nav id="navLinks" class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="types/types.html">Types</a>
+        <a href="preparedness.html">Preparedness</a>
+        <a href="organizations.html">Organizations</a>
+        <a href="contact.html">Contact</a>
+        <a href="login.html">Login</a>
+        <a href="signup.html">Sign Up</a>
+      </nav>
+      <button id="menuToggle" class="menu-toggle" aria-label="Toggle menu">☰</button>
+    </div>
+  </header>
+
+  <main class="container">
+  
+<section class="section">
+  <h2>Contact & Helplines</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>Feedback</h3>
+      <form id="contactForm">
+        <div class="input-grid">
+          <input type="text" name="name" placeholder="Full name" style="padding:10px;border-radius:8px;border:1px solid var(--muted)" required>
+          <input type="email" name="email" placeholder="Email address" style="padding:10px;border-radius:8px;border:1px solid var(--muted)" required>
+        </div>
+        <div style="margin-top:12px">
+          <textarea name="message" rows="5" placeholder="Message or feedback" style="width:100%;padding:10px;border-radius:8px;border:1px solid var(--muted)" required></textarea>
+        </div>
+        <div style="margin-top:12px;display:flex;gap:8px;align-items:center">
+          <button type="submit" class="cta" style="background:var(--primary);color:white;border:none">Send message</button>
+          <small style="color:var(--muted)">This demo does not submit to a server.</small>
+        </div>
+      </form>
+    </div>
+    <div class="card">
+      <h3>Emergency Helplines</h3>
+      <ul class="list-advanced">
+        <li><strong>National Emergency:</strong> 112</li>
+        <li><strong>Fire & Rescue:</strong> 101</li>
+        <li><strong>Medical Services:</strong> 102</li>
+      </ul>
+      <h3 style="margin-top:12px">Office Location</h3>
+      <img src="https://images.unsplash.com/photo-1508830524289-0adcbe822b40?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&s=6" alt="Map placeholder" style="width:100%;border-radius:8px;object-fit:cover">
+    </div>
+  </div>
+</section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container" style="display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap">
+      <p>&copy; 2025 Disaster Management — Built for education & preparedness.</p>
+      <p style="opacity:0.9">Designed with a professional blue-gray theme · <a href="index.html" style="color:inherit;text-decoration:underline">Home</a></p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
